@@ -9,6 +9,7 @@ html {
     display: flex;
     align-items: flex-start;
     gap: 2em;
+   
 }
 
 .principal {
@@ -21,6 +22,7 @@ html {
     background: #C5965F;
     border-radius: 10px;
     gap: 2em;
+    margin: 3rem 3rem;
 }
   
 .mochila {
@@ -130,3 +132,13 @@ html {
     font-weight: 400;
 }
 
+@media screen and (min-width: 360px) {
+    .principal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    
+}
